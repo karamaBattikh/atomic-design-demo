@@ -1,0 +1,29 @@
+@import './colors';
+@import './reset';
+
+:root {
+  --icon-size-s: 36px;
+  --icon-size-m: 48px;
+  --icon-size-xxs: calc(var(--icon-size-s) / 2);
+  --icon-size-xs: calc(var(--icon-size-m) / 2);
+  --icon-size-l: calc(var(--icon-size-s) * 2);
+  --icon-size-xl: calc(var(--icon-size-m) * 2);
+  --icon-size-xxl: calc(var(--icon-size-m) * 3);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
