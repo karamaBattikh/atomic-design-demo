@@ -1,0 +1,67 @@
+.icon {
+  display: inline-block;
+  color: var(--svg-color);
+}
+
+.icon-size-xxs {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-xxs);
+    height: var(--icon-size-xxs);
+  }
+}
+
+.icon-size-xs {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-xs);
+    height: var(--icon-size-xs);
+  }
+}
+
+.icon-size-s {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-s);
+    height: var(--icon-size-s);
+  }
+}
+
+.icon-size-m {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-m);
+    height: var(--icon-size-m);
+  }
+}
+
+.icon-size-l {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-l);
+    height: var(--icon-size-l);
+  }
+}
+
+.icon-size-xl {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-xl);
+    height: var(--icon-size-xl);
+  }
+}
+
+.icon-size-xxl {
+  &,
+  img,
+  svg {
+    width: var(--icon-size-xxl);
+    height: var(--icon-size-xxl);
+  }
+}

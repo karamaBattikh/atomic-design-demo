@@ -13,13 +13,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'plugin:sonarjs/recommended',
-    'eslint:recommended',
-    'plugin:prettier/recommended',
-    'airbnb',
-    'plugin:react/recommended',
-  ],
+  extends: ['plugin:sonarjs/recommended', 'eslint:recommended', 'plugin:prettier/recommended', 'airbnb', 'plugin:react/recommended', 'plugin:storybook/recommended'],
   ignorePatterns: ['node_modules/'],
   parserOptions: {
     ecmaFeatures: {
