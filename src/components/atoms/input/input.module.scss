@@ -1,0 +1,65 @@
+.container {
+  position: relative;
+  height: 50px;
+
+  .input {
+    width: 100%;
+    height: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    border: 1px solid var(--lightgrey);
+    border-radius: 10px;
+
+    background-color: var(--white);
+
+    color: var(--dark);
+  }
+
+  .input:disabled {
+    color: var(--gray);
+
+    cursor: not-allowed;
+  }
+
+  .error {
+    padding-right: 45px;
+
+    border: 1px solid var(--danger);
+  }
+
+  .with__icon.left {
+    padding-left: 45px;
+  }
+  .with__icon.right {
+    padding-right: 45px;
+  }
+
+  .with__icon.left.error {
+    padding-right: 40px;
+  }
+
+  .with__icon.right.error {
+    padding-right: 65px;
+  }
+
+  .input__icon,
+  .error__icon {
+    position: absolute;
+    top: 50%;
+    width: 18px;
+    height: 18px;
+
+    transform: translateY(-50%);
+  }
+
+  .error__icon {
+    right: 20px;
+  }
+
+  .input__icon {
+    &.with_error {
+      right: 45px;
+    }
+  }
+}

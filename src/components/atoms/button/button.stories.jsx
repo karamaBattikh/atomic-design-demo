@@ -33,8 +33,8 @@ function TemplateIconOnly(args) {
     </Button>
   );
 }
-export const ButtonIconOnly = TemplateIconOnly.bind({});
 
+export const ButtonIconOnly = TemplateIconOnly.bind({});
 ButtonIconOnly.args = {
   icon: 'iconOnly',
 };
